@@ -264,7 +264,10 @@ static inline NSUInteger _ScanHexNumber(const void* bytes, NSUInteger size) {
         [self didWriteBytes:data.bytes length:data.length];
         block(YES);
       } else {
-        GWS_LOG_ERROR(@"Error while writing to socket %i: %s (%i)", _socket, strerror(error), error);
+        if (error != EPIPE)
+            GWS_LOG_ERROR(@"Error while writing to socket %i: %s (%i)", _socket, strerror(error), error);
+        else
+            GWS_LOG_DEBUG(@"Error while writing to socket %i: %s (%i)", _socket, strerror(error), error);
         block(NO);
       }
     }
