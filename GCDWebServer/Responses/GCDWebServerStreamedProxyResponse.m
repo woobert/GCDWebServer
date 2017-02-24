@@ -39,7 +39,7 @@
 
 @implementation GCDWebServerStreamedProxyResponse
 
-+ (instancetype)responseWithHTTPResponse:(NSHTTPURLResponse*)httpResponse asyncStreamBlock:(GCDWebServerAsyncStreamBlock)block; {
++ (instancetype)responseWithHTTPResponse:(NSHTTPURLResponse*)httpResponse asyncStreamBlock:(GCDWebServerAsyncStreamBlock)block {
     return [[[self class] alloc] initWithHTTPResponse:httpResponse asyncStreamBlock:block];
 }
 
