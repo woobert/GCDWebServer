@@ -44,6 +44,7 @@
 #import <GCDWebServers/GCDWebServerErrorResponse.h>
 #import <GCDWebServers/GCDWebServerFileResponse.h>
 #import <GCDWebServers/GCDWebServerStreamedResponse.h>
+#import <GCDWebServers/GCDWebServerStreamedProxyResponse.h>
 
 // GCDWebUploader
 #import <GCDWebServers/GCDWebUploader.h>
