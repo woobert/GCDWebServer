@@ -218,6 +218,15 @@
 		E2DDD22D1BE6A0EF002CE867 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DDD22C1BE6A0EF002CE867 /* libz.tbd */; };
 		E2DDD22E1BE6A106002CE867 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DDD22A1BE6A0EB002CE867 /* libxml2.tbd */; };
 		E2DDD22F1BE6A108002CE867 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DDD22C1BE6A0EF002CE867 /* libz.tbd */; };
+		E8832EFA1E60FA63007386D9 /* GCDWebServerStreamedProxyResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E8832EF91E60FA63007386D9 /* GCDWebServerStreamedProxyResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8832EFB1E60FA63007386D9 /* GCDWebServerStreamedProxyResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E8832EF91E60FA63007386D9 /* GCDWebServerStreamedProxyResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8832EFC1E60FA63007386D9 /* GCDWebServerStreamedProxyResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E8832EF91E60FA63007386D9 /* GCDWebServerStreamedProxyResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8832EFE1E60FA7E007386D9 /* GCDWebServerStreamedProxyResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E8832EFD1E60FA7E007386D9 /* GCDWebServerStreamedProxyResponse.m */; };
+		E8832EFF1E60FA7E007386D9 /* GCDWebServerStreamedProxyResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E8832EFD1E60FA7E007386D9 /* GCDWebServerStreamedProxyResponse.m */; };
+		E8832F001E60FA7E007386D9 /* GCDWebServerStreamedProxyResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E8832EFD1E60FA7E007386D9 /* GCDWebServerStreamedProxyResponse.m */; };
+		E8832F011E60FA7E007386D9 /* GCDWebServerStreamedProxyResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E8832EFD1E60FA7E007386D9 /* GCDWebServerStreamedProxyResponse.m */; };
+		E8832F021E60FA7E007386D9 /* GCDWebServerStreamedProxyResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E8832EFD1E60FA7E007386D9 /* GCDWebServerStreamedProxyResponse.m */; };
+		E8832F031E60FA7E007386D9 /* GCDWebServerStreamedProxyResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = E8832EFD1E60FA7E007386D9 /* GCDWebServerStreamedProxyResponse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -363,6 +372,8 @@
 		E2DDD2261BE6A0B4002CE867 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.1.sdk/usr/lib/libz.tbd; sourceTree = DEVELOPER_DIR; };
 		E2DDD22A1BE6A0EB002CE867 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		E2DDD22C1BE6A0EF002CE867 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E8832EF91E60FA63007386D9 /* GCDWebServerStreamedProxyResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerStreamedProxyResponse.h; sourceTree = "<group>"; };
+		E8832EFD1E60FA7E007386D9 /* GCDWebServerStreamedProxyResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerStreamedProxyResponse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -580,6 +591,8 @@
 				E28BAE3118F99C810095C089 /* GCDWebServerFileResponse.m */,
 				E28BAE3218F99C810095C089 /* GCDWebServerStreamedResponse.h */,
 				E28BAE3318F99C810095C089 /* GCDWebServerStreamedResponse.m */,
+				E8832EF91E60FA63007386D9 /* GCDWebServerStreamedProxyResponse.h */,
+				E8832EFD1E60FA7E007386D9 /* GCDWebServerStreamedProxyResponse.m */,
 			);
 			path = Responses;
 			sourceTree = "<group>";
@@ -669,6 +682,7 @@
 				CEE28D111AE006E200F4023C /* GCDWebServerFunctions.h in Headers */,
 				CEE28D251AE0071E00F4023C /* GCDWebServerFileRequest.h in Headers */,
 				CEE28D411AE0077800F4023C /* GCDWebDAVServer.h in Headers */,
+				E8832EFA1E60FA63007386D9 /* GCDWebServerStreamedProxyResponse.h in Headers */,
 				CEE28D471AE0078A00F4023C /* GCDWebUploader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -693,6 +707,7 @@
 				CEE28D0A1AE006C300F4023C /* GCDWebServer.h in Headers */,
 				CEE28D361AE0074E00F4023C /* GCDWebServerErrorResponse.h in Headers */,
 				CEE28D421AE0077800F4023C /* GCDWebDAVServer.h in Headers */,
+				E8832EFB1E60FA63007386D9 /* GCDWebServerStreamedProxyResponse.h in Headers */,
 				CEE28D481AE0078B00F4023C /* GCDWebUploader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -717,6 +732,7 @@
 				E2DDD1B21BE6947F002CE867 /* GCDWebServerStreamedResponse.h in Headers */,
 				E2DDD1B31BE6947F002CE867 /* GCDWebDAVServer.h in Headers */,
 				E2DDD1B41BE6947F002CE867 /* GCDWebUploader.h in Headers */,
+				E8832EFC1E60FA63007386D9 /* GCDWebServerStreamedProxyResponse.h in Headers */,
 				E2DDD1B51BE6947F002CE867 /* GCDWebServers.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -988,6 +1004,7 @@
 				E2A0E80A18F3432600C580B1 /* GCDWebDAVServer.m in Sources */,
 				E28BAE4218F99C810095C089 /* GCDWebServerMultiPartFormRequest.m in Sources */,
 				E2BE850C18E785940061360B /* GCDWebUploader.m in Sources */,
+				E8832EFE1E60FA7E007386D9 /* GCDWebServerStreamedProxyResponse.m in Sources */,
 				E221128F1690B6470048D2B2 /* main.m in Sources */,
 				E28BAE4818F99C810095C089 /* GCDWebServerErrorResponse.m in Sources */,
 			);
@@ -1012,6 +1029,7 @@
 				CEE28D131AE006E900F4023C /* GCDWebServerFunctions.m in Sources */,
 				CEE28D371AE0075900F4023C /* GCDWebServerErrorResponse.m in Sources */,
 				CEE28D491AE0079100F4023C /* GCDWebUploader.m in Sources */,
+				E8832F011E60FA7E007386D9 /* GCDWebServerStreamedProxyResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1034,6 +1052,7 @@
 				CEE28D141AE006EA00F4023C /* GCDWebServerFunctions.m in Sources */,
 				CEE28D381AE0075900F4023C /* GCDWebServerErrorResponse.m in Sources */,
 				CEE28D4A1AE0079200F4023C /* GCDWebUploader.m in Sources */,
+				E8832F021E60FA7E007386D9 /* GCDWebServerStreamedProxyResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1064,6 +1083,7 @@
 				E2DDD1A21BE6945F002CE867 /* GCDWebServerStreamedResponse.m in Sources */,
 				E2DDD1A31BE6945F002CE867 /* GCDWebDAVServer.m in Sources */,
 				E2DDD1A41BE6945F002CE867 /* GCDWebUploader.m in Sources */,
+				E8832F031E60FA7E007386D9 /* GCDWebServerStreamedProxyResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1080,6 +1100,7 @@
 				E2DDD1E41BE69BB7002CE867 /* GCDWebServerFileRequest.m in Sources */,
 				E2DDD1E51BE69BB7002CE867 /* GCDWebServerMultiPartFormRequest.m in Sources */,
 				E2DDD1E61BE69BB7002CE867 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+				E8832F001E60FA7E007386D9 /* GCDWebServerStreamedProxyResponse.m in Sources */,
 				E2DDD1E71BE69BB7002CE867 /* GCDWebServerDataResponse.m in Sources */,
 				E2DDD1E81BE69BB7002CE867 /* GCDWebServerErrorResponse.m in Sources */,
 				E2DDD1E91BE69BB7002CE867 /* GCDWebServerFileResponse.m in Sources */,
@@ -1105,6 +1126,7 @@
 				E2DDD2161BE69F17002CE867 /* GCDWebServerFileRequest.m in Sources */,
 				E2DDD2171BE69F17002CE867 /* GCDWebServerMultiPartFormRequest.m in Sources */,
 				E2DDD2181BE69F17002CE867 /* GCDWebServerURLEncodedFormRequest.m in Sources */,
+				E8832EFF1E60FA7E007386D9 /* GCDWebServerStreamedProxyResponse.m in Sources */,
 				E2DDD2191BE69F17002CE867 /* GCDWebServerDataResponse.m in Sources */,
 				E2DDD21A1BE69F17002CE867 /* GCDWebServerErrorResponse.m in Sources */,
 				E2DDD21B1BE69F17002CE867 /* GCDWebServerFileResponse.m in Sources */,
