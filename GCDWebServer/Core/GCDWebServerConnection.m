@@ -646,11 +646,13 @@ static inline NSUInteger _ScanHexNumber(const void* bytes, NSUInteger size) {
 }
 
 - (void)dealloc {
-  int result = close(_socket);
-  if (result != 0) {
-    GWS_LOG_ERROR(@"Failed closing socket %i for connection: %s (%i)", _socket, strerror(errno), errno);
-  } else {
-    GWS_LOG_DEBUG(@"Did close connection on socket %i", _socket);
+  if (_socket) {
+    int result = close(_socket);
+    if (result != 0) {
+      GWS_LOG_ERROR(@"Failed closing socket %i for connection: %s (%i)", _socket, strerror(errno), errno);
+    } else {
+      GWS_LOG_DEBUG(@"Did close connection on socket %i", _socket);
+    }
   }
 
   if (_opened) {
